@@ -1,0 +1,9 @@
+nav {
+    background-color: blue;
+    display: flex;
+}
+
+a {
+    justify-content: space-between;
+    color: cyan;
+}
