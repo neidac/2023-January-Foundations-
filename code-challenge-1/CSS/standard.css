@@ -1,9 +1,13 @@
 nav {
     background-color: blue;
-    display: flex;
+    display: flex; 
+    justify-content: space-between;    
+}
+/* body margin isn't apart of the original code shown on 2/8/2023 you just hated a white gap*/
+body {
+    margin: 0;
 }
 
 a {
-    justify-content: space-between;
     color: cyan;
 }
