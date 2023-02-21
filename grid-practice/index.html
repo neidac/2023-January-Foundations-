@@ -1,0 +1,84 @@
+<!--just by typing "!" will creat a template of what should be on your website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        /* here are the grid items with their grid area names used later in grid template areas */
+        .item1 {
+            grid-area: header;
+            /* don't have to use header, it could be title, its just a reference?- */
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        /* the grid container class apily named grid=container */
+
+        .grid-container {
+            display: grid;
+            /* makes this a grid  */
+            grid-template-areas:  /* defined the general layout of the grid*/
+            "header header header header header header" /*row 1 layout*/
+            "menu   main   main   main   main  right "  /* row 2 layout*/
+            "menu   footer footer footer footer footer "; /* row 3 layout*/
+            grid-gap: 0.5em; /*gap between the grid-items NOT on the outside of the grid-container*/
+            padding: 0.5em; /* just for a uniform looking grid, this is the same value as grid-gap*/
+            /* preview this and then change the padding to 0 and preview it again to see the difference*/
+            background-color: #2196f3; /*note how this background shows through the grid grap*/
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        /* this selects all the grid-items to style yhem */
+        .grid-container > div {
+            /*what do you think setting this grid-item background color with a 0.8 opacity does?
+            preview this and then change the 0.8 to a 1.0 to see what this is for*/
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding-top: 0.7em;
+            padding-bottom: 0.7em;
+            font-size: 3vh;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <h1>Grid Layout</h1>
+    <p>
+        this grid layout contains 6 columns and 3 rows 
+    </p> -->
+    <div class="grid-container">
+        <div class=" item1">Header</div>
+        <div class=" item2">Menu</div>
+        <div class="item3">
+            <p>Main</p>
+            <p>Main</p>
+            <p>Main</p>
+        </div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+    </div>
+    <!-- item could be written like div.name -->
+    <!-- article#home = article id="home" -->
+</body>
+</html>

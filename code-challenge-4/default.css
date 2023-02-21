@@ -1,0 +1,15 @@
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../code-challenge-4/images/catsdogs.jpg);
+    background-size: contain;
+    background-position: center;
+    bottom: 0;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
