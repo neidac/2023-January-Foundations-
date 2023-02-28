@@ -6,59 +6,38 @@ html, body {
 
 h1 {
     margin: 0;
-    /* padding: 0.5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .header {
     grid-area: header;
-    /* padding: 0.5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .left {
     grid-area: left;
-    /* padding: 0.5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .middle {
     grid-area: middle;
-    /* padding: 0.5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .right {
     grid-area: right;
-    /* padding: 0.5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .footer-left {
     grid-area: footer-left;
-    /* padding: 0.5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .footer-right {
     grid-area: footer-right;
-    /* padding: 0.5em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .grid-container {
     display: grid;
     grid-template-areas: 
-    "header header header"
-    "left right middle"
-    "footer-left footer-right";
+    "header header header header"
+    "left middle middle right "
+    "footer-left footer-left footer-right footer-right";
     background-color: #00a000;
     grid-gap: 0.25em;
     padding: 0.25em;
