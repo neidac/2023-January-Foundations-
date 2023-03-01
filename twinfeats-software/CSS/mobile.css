@@ -1,0 +1,46 @@
+#mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    height: 5vh;
+    width: 5vh;
+    z-index: 10;
+    /* so it stays on top */
+    padding: 0;
+}
+
+#mobile-nav > img {
+    /* > is direct child (we are talking about the hamburger image) */
+    width: 100%;
+
+}
+
+#nav:target {
+    width: 12ch;
+    height: 7em;
+    padding: .2em;
+}
+
+nav {
+    /* overrides what is said on the standard.css */
+    flex-direction: column;
+    top: calc(5vh + .5em);
+    width: 0;
+    overflow: hidden;
+    /* so it doesnt go outside of its text */
+    transition: all .5s;
+}
+
+nav > a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+nav > a:first-child {
+    padding-top: 0.5em;
+}
+
+nav > a:last-child {
+    padding-bottom: 0.5em;
+}
