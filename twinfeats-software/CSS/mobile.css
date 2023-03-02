@@ -83,6 +83,11 @@ article {
     width: 100%;
 }
 
+#apps {
+    display: flex;
+    flex-direction: column;
+}
+
 #apps > .sidebar {
     display: none;
 }
@@ -98,6 +103,7 @@ article {
 
 .photobox img {
     height: 40vw;
+    width: auto;
     left: 50%;
 }
 
