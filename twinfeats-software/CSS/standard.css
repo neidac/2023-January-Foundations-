@@ -261,7 +261,6 @@ article:target ~ #home {
 }
 
 .stage {
-    perspective: 1600px;
     perspective-origin: 50% 0;
     width: 22ch;
     margin-right: 1.5em;
@@ -350,7 +349,8 @@ article:target ~ #home {
 }
 
 
-#mobile-nav, #mobile-trigger {
+#mobile-nav, #mobile-trigger, #bonus, .bonus-img {
     display: none;
-    /* so the hamburger isnt visible on the normal website for nonmobile */
+    /* so the hamburger and any other thing isnt visible on the normal website for nonmobile usage
+    also if something is screwed up with the images from here, check if it's an id or class  */
 }

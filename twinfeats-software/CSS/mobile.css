@@ -1,3 +1,7 @@
+html {
+    font-size: xx-large;
+}
+
 #mobile-nav {
     display: block;
     position: fixed;
@@ -43,4 +47,94 @@ nav > a:first-child {
 
 nav > a:last-child {
     padding-bottom: 0.5em;
+}
+
+.logo {
+    width: 40vw;
+}
+
+article {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1.2rem;
+}
+
+.vertical-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* will actually get it centered  */
+}
+
+.tagline {
+    white-space: nowrap;
+    /* gets rid of wrapping  */
+}
+
+#bonus {
+    display: block;
+    margin-top: 3em;
+}
+
+.bonus-img {
+    margin-top: 5vh;
+    display: block;
+    width: 100%;
+}
+
+#apps > .sidebar {
+    display: none;
+}
+
+.stage .cube {
+    /* means it's in for specificiy*/
+
+    width: 40vw;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photobox img {
+    height: 40vw;
+    left: 50%;
+}
+
+.stage .front {
+    transform: translateX(-50%) translateZ(30vw);
+}
+
+.stage .back {
+    transform: translateX(-50%) rotateY(180deg) translateZ(30vw);
+}
+
+.stage .top {
+    transform: translateX(-50%) rotateX(90deg) translateY(30vw);
+}
+
+.stage .bottom {
+    transform: translateX(-50%) rotateX(-90deg) translateZ(30vw);
+}
+
+.stage .left {
+    transform: translateX(-50%) rotateY(-90deg) translateZ(30vw);
+}
+
+.stage .right {
+    transform: translateX(-50%) rotateY(90deg) translateZ(30vw);
+}
+
+/* for the animation I think  */
+
+figcaption {
+    font-size: 1rem;
+}
+
+.photobox {
+    flex-direction: column;
+}
+
+.stage {
+    width: 100%;
 }
