@@ -57,6 +57,10 @@ article {
     padding-left: 5vw;
     padding-right: 5vw;
     font-size: 1.2rem;
+    padding-top: 5vw;
+    height: auto;
+    min-height: 100vh;
+    position: absolute;
 }
 
 .vertical-container {
@@ -95,14 +99,20 @@ article {
 .stage .cube {
     /* means it's in for specificiy*/
 
-    width: 40vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
     margin-left: auto;
     margin-right: auto;
+    animation-delay: 3s;
+}
+
+#about:target {
+    /* when we are on the about page the end will have the id about then it will target that specific page */
+    animation-play-state: running;
 }
 
 .photobox img {
-    height: 40vw;
+    height: 60vw;
     width: auto;
     left: 50%;
 }
@@ -135,12 +145,16 @@ article {
 
 figcaption {
     font-size: 1rem;
+    margin-bottom: 1em;
+
 }
 
 .photobox {
     flex-direction: column;
+    padding-bottom: 1em;
 }
 
 .stage {
     width: 100%;
 }
+
