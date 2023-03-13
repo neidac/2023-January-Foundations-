@@ -86,22 +86,62 @@
 
 
 // If else
-var zombies = 2;
-// this is called a code block below
-if (zombies > 10) {
-    console.log('AAAAAAAARRRGHH! ZOMBIES!!!');
-} else if (zombies > 5) {
-    console.log('Gotta stay away from those zombies!')
+// var zombies = 2;
+// // this is called a code block below
+// if (zombies > 10) {
+//     console.log('AAAAAAAARRRGHH! ZOMBIES!!!');
+// } else if (zombies > 5) {
+//     console.log('Gotta stay away from those zombies!')
+// }
+// else {
+//     console.log('Not a lot of zombies today.');
+// }
+// // will never run both above on if or else statements 
+// var apples = 20;
+// // make sure that you stack the numbers to make sure all numbers arent true at the same time 
+// if (apples > 3) {
+//     console.log ("let's make tarts!")
+//     // use double quotes for string if shortening 
+// } else if (apples > 10) {
+//     console.log('Let us make a pie! We can use the "Betty Crocker" cookbook!')
+// }
+
+
+
+// var numOfStudents = 13;
+// if (numOfStudent > 20) {
+//     console.log("Too many students");
+// } else if (numOfStudents > 15) {
+//     console.log("Good number of students");
+// }
+
+
+// Personal Practice
+// var austin
+// austin = 14
+// var dallas 
+// dallas = 18
+// var london 
+// london = 22
+// var brooklyn
+// brooklyn = 27
+// var chicago
+// chicago = 33
+
+// console.log(chicago + brooklyn - london)
+
+
+var company = {
+    firstName:"Stonk"
+    address: [
+        {
+            street:"howard",
+            num:"1234",
+            city:"omaha"
+            state:"ne"
+            zip:"68111"
+        }
+    ]
 }
-else {
-    console.log('Not a lot of zombies today.');
-}
-// will never run both above on if or else statements 
-var apples = 20;
-// make sure that you stack the numbers to make sure all numbers arent true at the same time 
-if (apples > 3) {
-    console.log ("let's make tarts!")
-    // use double quotes for string if shortening 
-} else if (apples > 10) {
-    console.log('Let us make a pie! We can use the "Betty Crocker" cookbook!')
-}
+
+console.log('company')
