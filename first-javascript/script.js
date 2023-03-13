@@ -141,6 +141,7 @@ var company = {
             state:"ne"
             zip:"68111"
         }
+        students:"100"
     ]
 }
 
