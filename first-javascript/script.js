@@ -141,18 +141,18 @@
 //         phoneNum:"402-291-1234",
 //         employeeCount:100,
 // }
-// console.log("The name of the company is " + company.name + ". It is located at " + company.address.streetAdress + company.address.city + company.adress.city + company.address.state + company.adress.zip)
-// console.log("The name of the company is " + $9company.name)
+// console.log("The name of the company is " + company.name + ". It is located at " + company.address.streetAddress + " "+ company.address.city + ", " + company.address.state + " " + company.address.zip + " and its phone number is " + company.phoneNum + ". The company has " + company.employeeCount + " employees")
+// console.log('The name of the company is ${company.name}. It has ${company.employeeCount} employees')
 
 // food
 // const food = ["pizza", "burger", "fries", "wings", "salad"];
 // // worked cause even though it can't change the parts of it we can change the contents of it
 // food.pop();
 // console.log(food);
-// food.push["cake", "ice-cream", "chips"];
+// food.push("cake", "ice-cream", "chips");
 // console.log(food);
 // food.splice(1, 4);
-// console.log(food)
+// console.log(food);
 
 
 // Test Scores
