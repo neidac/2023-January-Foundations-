@@ -117,32 +117,107 @@
 
 
 // Personal Practice
-// var austin
+// var austin;
 // austin = 14
-// var dallas 
+// var dallas;
 // dallas = 18
-// var london 
-// london = 22
-// var brooklyn
-// brooklyn = 27
-// var chicago
-// chicago = 33
+// var orleans = 50;
+// var london = 20;
+// var brooklyn = 27;
+// var chicago = 23;
 
 // console.log(chicago + brooklyn - london)
 
+// My Tries
+// Company
+// var company = {
+//     name:"Stonk",
+//     address: {
+//             streetAddress:"123 howard st",
+//             city: "omaha",
+//             state:"ne",
+//             zip:"68111",
+//         },
+//         phoneNum:"402-291-1234",
+//         employeeCount:100,
+// }
+// console.log("The name of the company is " + company.name + ". It is located at " + company.address.streetAdress + company.address.city + company.adress.city + company.address.state + company.adress.zip)
+// console.log("The name of the company is " + $9company.name)
 
-var company = {
-    firstName:"Stonk"
-    address: [
-        {
-            street:"howard",
-            num:"1234",
-            city:"omaha"
-            state:"ne"
-            zip:"68111"
-        }
-        students:"100"
-    ]
-}
+// food
+// const food = ["pizza", "burger", "fries", "wings", "salad"];
+// // worked cause even though it can't change the parts of it we can change the contents of it
+// food.pop();
+// console.log(food);
+// food.push["cake", "ice-cream", "chips"];
+// console.log(food);
+// food.splice(1, 4);
+// console.log(food)
 
-console.log('company')
+
+// Test Scores
+// var testScore = 99;
+// if (testScore > 90) {
+//     console.log("You did that!");
+// } else if (testScore >= 70) {
+//     console.log("You passed");
+// } else {
+//     console.log("I'm sorry, you didn't pass");
+// }
+
+
+// loops
+// for(var i = 1; i <= 10; i++ ) {
+// console.log("i is now" + i);
+// }
+// console.log("the loop has ended")
+// for(var i = 10; i >= 1; i--) {
+//     console.log("i is now" + i);
+// }
+// for (var i = 3; i < 22; i +=3) {
+//                         // increase by 3
+// console.log("i is now " +  i);
+// }
+// var cars=["toyota", "honda", "Nissan", "Subaru"]
+// for (var i = 0; 1 < cars.length; i++ ) {
+//     console.log("car " +  (i+1) + " is a " + cars(1));
+// }
+// console.log("That's all the cars.");
+
+// for(var i = 1; 1 <= 20; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i + " is even");
+//     } else {
+//         console.log(i + " is odd");
+//     } 
+// }
+// console.log("That's all folks!");
+
+// // modulus 
+// console.log(8 % 5)
+// console.log(4 % 2)
+// console.log(3 % 2)
+
+// var numOfMonkeys = 8;
+// while(numOfMonkeys > 0) {
+//     console.log(numOfMonkeys + "little monkeys jumping on the bed");
+//     numOfMonkeys--;
+// }
+
+// console.log("no more monkeys jumping on the bed!")
+
+// var numBooks = 11; 
+// while(numBooks < 10) {
+//     console.log("Number of books is " + numBooks);
+//     numBooks ++;
+// }
+// console.log("while loop ended;");
+
+// do{
+// } while {
+// }
+// var numBooks = 11 
+// do {
+//     console.log("Number of books is " + numBooks);
+// } while(numBooks < 10);
+// console.log("Do while loop ended.")
