@@ -184,14 +184,14 @@
 // }
 // console.log("That's all the cars.");
 
-// for(var i = 1; 1 <= 20; i++) {
-//     if (i % 2 == 0) {
-//         console.log(i + " is even");
-//     } else {
-//         console.log(i + " is odd");
-//     } 
-// }
-// console.log("That's all folks!");
+for(var i = 1; 1 <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i + " is even");
+    } else {
+        console.log(i + " is odd");
+    } 
+}
+console.log("That's all folks!");
 
 // // modulus 
 // console.log(8 % 5)
