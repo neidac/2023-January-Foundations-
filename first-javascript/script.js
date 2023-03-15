@@ -184,14 +184,14 @@
 // }
 // console.log("That's all the cars.");
 
-for(var i = 1; 1 <= 20; i++) {
-    if (i % 2 == 0) {
-        console.log(i + " is even");
-    } else {
-        console.log(i + " is odd");
-    } 
-}
-console.log("That's all folks!");
+// for(var i = 1; 1 >= 20; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i + " is even");
+//     } else {
+//         console.log(i + " is odd");
+//     } 
+// }
+// console.log("That's all folks!");
 
 // // modulus 
 // console.log(8 % 5)
@@ -206,12 +206,12 @@ console.log("That's all folks!");
 
 // console.log("no more monkeys jumping on the bed!")
 
-// var numBooks = 11; 
-// while(numBooks < 10) {
-//     console.log("Number of books is " + numBooks);
-//     numBooks ++;
-// }
-// console.log("while loop ended;");
+var numBooks = 11; 
+while(numBooks < 10) {
+    console.log("Number of books is " + numBooks);
+    numBooks ++;
+}
+console.log("while loop ended;");
 
 // do{
 // } while {
