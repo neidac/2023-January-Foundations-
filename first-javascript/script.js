@@ -142,7 +142,7 @@
 //         employeeCount:100,
 // }
 // console.log("The name of the company is " + company.name + ". It is located at " + company.address.streetAddress + " "+ company.address.city + ", " + company.address.state + " " + company.address.zip + " and its phone number is " + company.phoneNum + ". The company has " + company.employeeCount + " employees")
-// console.log('The name of the company is ${company.name}. It has ${company.employeeCount} employees')
+// console.log(`The name of the company is ${company.name}. It has ${company.employeeCount} employees`)
 
 // food
 // const food = ["pizza", "burger", "fries", "wings", "salad"];
@@ -206,12 +206,12 @@
 
 // console.log("no more monkeys jumping on the bed!")
 
-var numBooks = 11; 
-while(numBooks < 10) {
-    console.log("Number of books is " + numBooks);
-    numBooks ++;
-}
-console.log("while loop ended;");
+// var numBooks = 11; 
+// while(numBooks < 10) {
+//     console.log("Number of books is " + numBooks);
+//     numBooks ++;
+// }
+// console.log("while loop ended;");
 
 // do{
 // } while {
@@ -221,3 +221,113 @@ console.log("while loop ended;");
 //     console.log("Number of books is " + numBooks);
 // } while(numBooks < 10);
 // console.log("Do while loop ended.")
+
+// tell purpose when printing 
+// function printHelloWorld() { 
+//     console.log("Hellow World!");
+// }
+// // remember to call function and below is how you do it
+// printHelloWorld();
+
+// Maths
+// function add3Plus5() {
+//     var total = 3 + 5
+//     console.log("Total is " + total);
+// }
+// add3Plus5();
+
+
+// function addTwoNumbers(num1, num2) {
+//     var total = num1 + num2
+//     console.log("Total is " + total);
+//     return total;
+// }
+// addTwoNumbers(7, 12);
+// var price = addTwoNumbers(7,12);
+// console.log("The price is " + price)
+
+
+// var houseArea;
+// var housePerimeter;
+// function getAreaOfHouse(length, width) {
+//     var area = length * width;
+//     return area;
+// }
+// function getPerimeterOfHouse(length, width) {
+//     var perimeter = (2 * length) + (2 * width);
+//     return perimeter;
+// }
+// var houseLength = 30;
+// var houseWidth = 15;
+// houseArea = getAreaOfHouse(houseLength, houseWidth); 
+// housePerimeter = getPerimeterOfHouse(houseLength, houseWidth); 
+// console.log(`My House is ${houseLength} feet by ${houseWidth} feet. It has an area of ${houseArea} square feet and a perimeter of ${housePerimeter} feet.`);
+// // // use ````` they look the same as ''''' but they aren't PLEASE REMEMBER THIS. Although I can't blame you lolol
+// personal try that I'm preetyy sure failed
+// // console.log("My house is " + houseLength + " feet by " + houseWidth + " feet. It has an area of " + houseArea + " square feet and a perimeter of " + housePerimeter + " feet.")
+
+// // global scope
+// var greeting = "Hello";
+// function sayGreeting() {
+//     console.log(greeting);
+// }
+// sayGreeting();
+// console.log(greeting);
+// // now within any other function and can be used in any function inside of the global scope'
+// function sayGoodbye() {
+//     var goodBye = "So long!";
+//     console.log(goodBye);
+// }
+// // cannot fix the statement, you would have to declare sayGoodbye outside of the function
+// sayGoodbye();
+// console.log(goodBye)
+// // not inside of sayGoodbye
+
+
+// var total = 3;
+// function getTotal() {
+//      total = 5;
+//     //  when reassigning var total is a diferrent thing than the one outside  but now it overwrites it ish
+//     console.log("Total in function = " + total)
+// }
+// getTotal();
+// console.log("Total outside function = " + total)
+
+// function getMeasurements(length, width) {
+//     if(length > 40 && width > 20) {
+//         var perimeter = 2 * length + 2 * width; 
+//         // should use a with var since it's only used in the if block and can't be seen if used with const or let 
+//     } else {
+//         console.log("You have too small a house to care about the perimeter.")
+//     }
+//     console.log("The perimeter of your house is " + perimeter + " feet.")
+// }
+// getMeasurements(50, 50);
+
+
+// let catName = "bob";
+// const dogName = "Jerry";
+// // you can't reassign the value for const
+// dogName = "Bill";
+
+// for (let i = 10l i < 10; i++)
+// if you do want your code to change then use let
+// try not to use var for projects
+
+// the scope of let and const can only be used in the block it is defined in while var is function scoped 
+
+
+
+// var numbers = [1, 2, 3, 4, 5 ]
+// // numbers.forEach(function(number) {
+// //     console.log("the number was " +  number );
+// //     number *= number;
+// //     console.log(number);
+// //     console.log("but now it's " + number);
+// // });
+// numbers.forEach((number) => {
+//     console.log("the number was " +  number );
+//     number *= number;
+//     console.log(number);
+//     console.log("but now it's " + number);
+// });
