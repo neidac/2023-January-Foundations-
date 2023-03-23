@@ -1,7 +1,4 @@
-/* div.move {
-    top: 50%!important;
-    left: 50%!important;
-} */
+
 #block1 {
     position: absolute;
     width: 10%;
@@ -9,13 +6,9 @@
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 0, 0.5);
-    transition: all 3s ease;
+    transition: 3s ease;
     opacity: 1;
 
-}
-div.move {
-    top: 50%!important;
-    left: 50%!important;
 }
 #block2 {
     position: absolute;
@@ -24,6 +17,7 @@ div.move {
     top: 50%;
     left: 50%;
     background-color: rgba(255, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
 }
 
 #move {
@@ -50,13 +44,18 @@ div.move {
     left: 65%;
     transform: translateX(-50%);
 }
-.size {
+#block1.move {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#block1.size {
     width: 20%;
     height: 20%;
 }
-.opacity {
+#block1.opacity {
     opacity: 0.25;
 }
-.color {
+#block1.color {
     background-color: green;
 }

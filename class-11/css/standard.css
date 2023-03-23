@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 2vh;
+    color: white;
+    background-color: aliceblue;
+}
+
+#home {
+    background-image: url(/class-11/images/background\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center top;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* we have to add a width because fixed gets rid of 100% */
+    display: flex;
+    justify-content: space-between;
+    /* justify content is what makes the word fancy and the nav to be right next to each other under header */
+}
+
+header > span {
+    margin-left: 3vw;
+    font-size: 2em;
+    line-height: 5rem;
+    vertical-align: middle;
+}
+
+header > nav > a:last-child {
+    margin-right: 3vw;
+}
+
+header > nav > a:nth-last-child(2) {
+    margin-left: 3vw;
+}
+
+
+/* anchor tags have to be targeted when having color to it  */
+nav > a {
+    color: white;
+    text-decoration: none;
+    /* to get rid of the lines on the link  */
+    margin-right: 3vw;
+    line-height: 5em;
+    /* line height helps us be able to use vertical align */
+    vertical-align: middle;
+}
+
+main {
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% + 2em));
+    white-space: nowrap;
+    text-align: center;
+}
+
+main a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 20ch;
+    border: 3px solid transparent;
+    border-image: linear-gradient(90deg, blue, lightblue,turquoise);
+    border-image-slice: 30%;
+    display: inline-block;
+    color: inherit;
+    text-shadow: 1px 1px #303030;
+    text-decoration: none;
+    
+}
+
+main a:hover {
+    border-width: 0;
+    padding-top: calc(.5em + 3px);
+    /* add two units together is what calc does */
+    padding-bottom: calc(.5em + 3px);
+    /* 3px is to make up for the removed border */
+    width: calc(20ch + 5px);
+    background: linear-gradient(90deg, blue, lightblue, turquoise);
+}
+.teaser {
+    position: absolute;
+    top: 100vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    display: flex;
+    width: 80%;
+}
+
+.teaser > div {
+    padding-left: 3em;
+    padding-right: 3em;
+    position: relative;
+    /* critical for this to work(spelt different) */
+}
+
+.teaser > div::after {
+    border-right: 1px solid #404040;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    left: 0;
+    top: 15%;
+}
+.teaser > div:last-child::after {
+    border-right: 0;
+}
+
+.teaser > div > h2 > i {
+    font-size: 0.8em;
+    color: turquoise;
+    margin-right:0.25em;
+}
