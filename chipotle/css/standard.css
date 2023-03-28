@@ -1,0 +1,101 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#home {
+    background-image: url(/chipotle/images/hw-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center top;
+}
+
+.logo {
+    width: 12ch;
+    transform: translate(50%, 30%);
+}
+
+.register {
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+}
+.register a {
+    text-decoration: none;
+    color: rgba(83,50,41,255);
+    margin-right: 3vw;
+    line-height: 2vw;
+    font-size: 15px;
+    transform: translate(-7rem);
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top: 0;
+ }
+
+
+.app {
+    background-color: rgba(84,59,45,255);
+    display: flex;
+    justify-content: center;
+    transform: translateY(5rem);
+}
+
+.app a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.fa-chevron-down {
+    margin-left: 5px;
+}
+
+section {
+    background-color: white;
+    text-transform: uppercase;
+    transform: translateY(3rem);
+    display: flex;
+    margin: 3vw;
+}
+
+section a {
+    text-decoration: none;
+    color: rgba(84,59,45,255);
+    padding: 0;
+    margin: 3px;
+
+}
+.hmm {
+    margin-right:5px;
+}
+.text {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-transform: uppercase;
+    transform: translate(-50% -50%);
+}
+
+.text h1 {
+    margin: 0;
+    font-size: xx-large;
+}
+
+.text p {
+    margin: 0;
+}
