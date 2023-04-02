@@ -5,35 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskers Cat Cafe</title>
+    <link rel="icon" type="image/png" href="./images/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/standard.css">
 </head>
 <body>
     <!-- 1. Each page must include a <header>, <nav>, <section>, <footer>, tag.
         2. A minimum of two <div> tags per page
         3. A minimum of two to three #ids and .classes combined on each page -->
         <nav>
-            <a href="#home">Whiskers Cafe</a>
+            <div id="whisker">
+                <a href="#home">WHISKER <br> CAFE</a>
+                <a href="#home">
+                    <img src="./images/logo.png" alt="cat logo" id="logo">
+                </a>
+            </div>
             <a href="#visiting">Visiting</a>
             <a href="#cats">Cats</a>
             <a href="#menu">Menu</a>
             <a href="#faq">FAQ</a>
         </nav>
-        <header>
-            <figure>
-                <img src="./images/cafe.jpg" alt="picture of the inside of cafe">
-            </figure>
-            <section>
-                <h1>Feline Good?</h1>
-                <p>
-                    Come get a catpuccinot & meet some cute cats that could become yours in the same day!
-                </p>
-            </section>
-            <button id="click-me">Book Now!</button>
-        </header>
         <article id="info">
-            <section>
-                <div>
+            <header>
+                <section id="feline">
+                <div class="side1">
+                    <h1>Feline Good?</h1>
+                    <p>
+                        Come get a catpuccino and meet some cute cats that could become yours in the same day! 
+                        Our furry feline friends are always ready for some playtime and cuddles, and who knows
+                         - you might just fall in love with one of them and decide to take them home with you 
+                         that same day! 
+                    </p>
+                    <a href="#visiting" id="click-me">Book Now!</a>
+                </div>
+                </section>
+            </header>
+            <section id="about">
+                <div class="side2">
                     <h1>About Us</h1>
                     <p>
                         Welcome to Whisker Cafe - the ultimate destination for cat lovers and coffee
@@ -45,7 +57,7 @@
                         Visit us today and enjoy a cup of coffee with our furry friends!
                     </p>
                 </div>
-                <div>
+                <div class="side3">
                     <h1>Adoption</h1>
                     <p>
                         Our adoption process is designed to ensure that our cats are placed in loving and caring
@@ -58,11 +70,15 @@
                          interested in adopting one of our cats, simply click the "Adopt Now" button on our 
                          website to view a list of available cats
                     </p>
+                    <a href="#cats">Adopt Now!</a>
                 </div>
             </section>
         </article>
-        <footer>
+        <article>
             
+        </article>
+        <footer>
+            <!-- could only icons linking to a fake account okay? -->
         </footer>
     <script src="./script.js"></script>
 </body>
