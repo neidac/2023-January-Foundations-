@@ -124,3 +124,7 @@ main a:hover {
     color: turquoise;
     margin-right:0.25em;
 }
+
+#mobile-nav {
+    display: none;
+}

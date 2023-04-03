@@ -94,7 +94,7 @@ nav a:hover {
 #click-me {
     background-color: #ebccab;
     font-size: large;
-    border-radius: 5ch;
+    border-radius: 10ch;
     padding: 20px 20px;
     color: #594545;
     text-decoration: none;
@@ -120,7 +120,7 @@ nav a:hover {
 .side2, .side3 {
     background-color: #594545;
     color: #ebccab;
-    border-radius: 10px;
+    border-radius: 4ch;
     width: 45%;
     font-size: x-large;
     height: 25em;
@@ -156,4 +156,3 @@ nav a:hover {
     transition: ease .5s;
     background-color: #ffd37a;
 }
-

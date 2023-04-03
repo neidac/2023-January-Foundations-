@@ -1,0 +1,47 @@
+html, body {
+    background-color: aliceblue;
+}
+
+#mobile-nav {
+    top: 0;
+    right: 0;
+    position: fixed;
+    color: white;
+}
+
+header > span {
+    font-size: 2.5em;
+}
+
+nav {
+    display: none;
+}
+
+#home {
+
+}
+
+.teaser {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main h1 {
+    font-size: xx-large;
+}
+
+main a {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    width: 10ch;
+
+    border-width: 0;
+    padding-top: calc(.5em + 3px);
+    /* add two units together is what calc does */
+    padding-bottom: calc(.5em + 3px);
+    /* 3px is to make up for the removed border */
+    width: calc(20ch + 5px);
+    background: linear-gradient(90deg, blue, lightblue, turquoise);
+}
