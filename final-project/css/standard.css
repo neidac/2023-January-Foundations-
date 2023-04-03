@@ -1,12 +1,27 @@
 html, body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+}
+
+article:target {
+    left: 0;
+}
+article {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    left: -100vw;
+    display: block;
     background-color: rgb(246, 235, 214);
 }
 
 nav {
     background-color: #594545;
     display: flex;
+    position: relative;
+    width: 100%;
+    top: 0;
 }
 
 nav > a {
@@ -38,6 +53,9 @@ nav a:hover {
     transform: translate(5em, -3em);
 }
 
+#info {
+    left: 0;
+}
 #feline {
     background: rgba(26,49,85,.5);
    background-image: url(/final-project/images/cafe.jpg);
@@ -138,3 +156,4 @@ nav a:hover {
     transition: ease .5s;
     background-color: #ffd37a;
 }
+
