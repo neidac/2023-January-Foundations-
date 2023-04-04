@@ -7,21 +7,24 @@ article:target {
     left: 0;
 }
 article {
-    position: absolute;
     width: 100%;
     box-sizing: border-box;
     background-size: cover;
     left: -100vw;
     display: block;
+    padding-top:11.5vh;
+    margin-top: 11.5vh;
+    position: absolute;
     background-color: rgb(246, 235, 214);
 }
 
 nav {
     background-color: #594545;
     display: flex;
-    position: relative;
     width: 100%;
     top: 0;
+    position: absolute;
+    height: 11.5vh;
 }
 
 nav > a {
@@ -50,7 +53,7 @@ nav a:hover {
 }
 #logo {
     width: 6ch;
-    transform: translate(5em, -3em);
+    transform: translate(5em, -3.5em);
 }
 
 #info {
@@ -58,7 +61,7 @@ nav a:hover {
 }
 #feline {
     background: rgba(26,49,85,.5);
-   background-image: url(/final-project/images/cafe.jpg);
+   background-image: url(../images/cafe.jpg);
    /* the other image is a jpg that looks exactly like this one but not shaded*/
    background-repeat: no-repeat;
    background-size: cover;
