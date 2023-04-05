@@ -1,21 +1,41 @@
-html, body {
+html{
+    height: 100%;
+} 
+
+body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    position: relative;
+    min-height: 100%;
 }
 
+.site {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
 article:target {
     left: 0;
+
 }
 article {
     width: 100%;
     box-sizing: border-box;
     background-size: cover;
     left: -100vw;
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding-top:11.5vh;
-    margin-top: 11.5vh;
     position: absolute;
+    flex-wrap: wrap;
     background-color: rgb(246, 235, 214);
+    z-index: -2;
+}
+
+article::before {
+    content: "";
+    left: 0;
+    top: 0;
 }
 
 nav {
@@ -158,4 +178,17 @@ nav a:hover {
 .side3 a:hover {
     transition: ease .5s;
     background-color: #ffd37a;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #594545;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 15vh;
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 7em;
 }
