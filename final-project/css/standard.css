@@ -169,15 +169,15 @@ nav a:hover {
 
 
 #footer{
-    display: none;
+    display: flex;
     /* display: flex; */
     justify-content: space-evenly;
     text-align: center;
     background-color: #594545;
     height: 15vh;
-    position: sticky;
-    padding: 10px;
-    padding-bottom: 7em;
+    position: fixed;
+    /* padding: 10px;
+    padding-bottom: 7em; */
     color: #ebccab;
     width: 100%;
     bottom: 0;
