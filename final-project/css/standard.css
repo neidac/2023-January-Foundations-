@@ -167,7 +167,6 @@ nav a:hover {
 
 #footer{
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #594545;
@@ -195,11 +194,15 @@ nav a:hover {
 
 .hide {
     display: none;
-    transition: ease-in-out all 1s;
+    text-align: center;
+}
+
+.week, .address {
+    transform: translate(10em);
 }
 
 footer:hover .hide {
-    display: flex;
+    display: block;
 }
 .top {
     margin: 0;
