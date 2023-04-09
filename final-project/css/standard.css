@@ -1,4 +1,3 @@
-
 html {
     height: 100%;
 }
@@ -18,10 +17,9 @@ article {
     left: -100vw;
     padding-top: 11.5vh;
     position: absolute;
-    flex-wrap: wrap;
     background-color: rgb(246, 235, 214);
     z-index: -2;
-    margin-bottom: 15vh;
+    padding-bottom: 3em;
 }
 
 nav {
@@ -75,19 +73,19 @@ nav a:hover {
 
 }
 
-.side1 > h1 {
+.front > h1 {
     margin: 0;
     display: flex;
     font-size: 50px;
     font-weight: bolder;
 }
 
-.side1 > p {
+.front > p {
     margin: 0;
     font-size: 30px;
 }
 
- .side1 {
+ .front {
     background: linear-gradient(to right, rgb(89, 69, 69), transparent);
     display: absolute;
     margin: 0;
@@ -112,7 +110,6 @@ nav a:hover {
     justify-content: center;
     letter-spacing: 4px;
     font-weight: bold;
-    /* width: 50px; */
 }
 
 #click-me:hover {
@@ -126,7 +123,7 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
 }
-.side2, .side3 {
+.side1, .side2 {
     background-color: #594545;
     color: #ebccab;
     border-radius: 4ch;
@@ -149,7 +146,7 @@ nav a:hover {
     font-size: 25px;
 }
 
-.side3 > a {
+.side2 > a {
     text-decoration: none;
     color: #594545;
     background-color: #ebccab;
@@ -170,27 +167,40 @@ nav a:hover {
 
 #footer{
     display: flex;
-    /* display: flex; */
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #594545;
-    height: 15vh;
     position: fixed;
-    /* padding: 10px;
-    padding-bottom: 7em; */
     color: #ebccab;
     width: 100%;
     bottom: 0;
 }
 
+#footer h1 {
+    font-size: 1.2em;
+    margin-left: 20vw;
+}
+
+#socials {
+    margin-left: 20vw;
+}
 #socials > a {
     color: #ebccab;
-    font-size: 3rem;
+    font-size: 1.2rem;
     margin: 15px;
-    top: 60%;
+    /* top: 35%; */
     position: relative;
 }
 
+.hide {
+    display: none;
+    transition: ease-in-out all 1s;
+}
+
+footer:hover .hide {
+    display: flex;
+}
 .top {
     margin: 0;
     position: relative;
@@ -199,7 +209,7 @@ nav a:hover {
     width: 100%;
     height: 70vh;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-clip: border-box;
 }
 
 .top::before {
@@ -213,7 +223,7 @@ nav a:hover {
 
 
 .top-content {
-    color: #ebccab;
+    color: rgb(235, 204, 171);
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50vh);
@@ -246,4 +256,27 @@ nav a:hover {
     background-color: #ebccab;
     color: #594545;
     transition: ease .5s;
+}
+
+#works, #rules {
+    background-color: #594545;
+    color: #ebccab;
+    margin: 1em 3em;
+    padding: 20px;
+    border-radius: 8ch;
+}
+
+#visiting-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#visiting-info h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#visiting-info p, ol {
+    font-size: 25px;
 }
