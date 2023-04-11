@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-image: url(../music-survey/vector-speaker.jpg);
     color: white;
-    font-family: 16px/1.4 'Nanum Myeongjo', serif;
+    font: 16px/1.4 'Nanum Myeongjo', serif;
 }
 
 header {
