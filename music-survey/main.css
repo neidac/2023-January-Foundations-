@@ -41,3 +41,20 @@ fieldset {
 legend {
     padding-top: 1em;
 }
+
+button {
+    border-radius: 15px;
+    background-color: darkgray;
+    padding: 5px;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+footer > a {
+    color: white;
+    letter-spacing: 1px;
+}

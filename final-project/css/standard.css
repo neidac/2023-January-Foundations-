@@ -245,22 +245,26 @@ footer:hover .hide {
     font-family: 'Cinzel Decorative', cursive;
 }
 
-.form  {
-    background-color: #594545;
-    color: #ebccab;
+#submit {
+    background-color: #ebccab;
+    color: #594545;
     text-decoration: none;
     padding: 1rem;
     border-radius: 25ch;
     width: 18em;
     text-align: center;
+    border: 0;
+    margin: 20px;
 }
 
 
-.form:hover {
-    background-color: #ebccab;
-    color: #594545;
+#submit:hover {
+    background-color: #594545;
+    color: #ebccab;
     transition: ease .5s;
+    cursor: pointer;
 }
+
 
 #works, #rules {
     background-color: #594545;
@@ -283,4 +287,17 @@ footer:hover .hide {
 
 #visiting-info p, ol {
     font-size: 25px;
+}
+
+
+
+.form-words {
+    text-align: left;
+    width: 80%;
+}
+    
+.information {
+    display: block;
+   width: 50%;
+   float: right;
 }
