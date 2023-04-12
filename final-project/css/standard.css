@@ -203,6 +203,7 @@ nav a:hover {
 
 footer:hover .hide {
     display: block;
+    /* more */
 }
 .top {
     margin: 0;
@@ -290,14 +291,18 @@ footer:hover .hide {
 }
 
 
-
+#form {
+    transform: translate(-2em, -2em);
+}
 .form-words {
     text-align: left;
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 125%;
 }
     
 .information {
     display: block;
-   width: 50%;
+   width: 40%;
    float: right;
 }
