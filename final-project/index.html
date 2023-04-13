@@ -159,94 +159,142 @@
             </article>
             <article id="adoption">
                 <header>
-                    <h1>Meet Our Cats</h1>
-                    <p>
-                        We believe that every cat deserves a loving family and a warm home, and we are proud to be a part of that mission.
-                        Our adoptable cats are fully vetted and up-to-date on their vaccinations, and they receive the same level of care 
-                        and attention as our resident cats. We work closely with the shelters to ensure that each cat is matched with 
-                        the right family, and we provide a comfortable and safe environment for potential adopters to get to know the 
-                        cats. Adopting a cat is a rewarding experience, and we encourage our visitors to consider giving a cat a loving 
-                        home. We are always excited to see one of our adoptable cats find their forever family, and we celebrate each 
-                        successful adoption with joy and gratitude.
-                    </p>
+                    <div class="top-cat">
+                        <h1>Meet Our Cats</h1>
+                        <p>
+                            We believe that every cat deserves a loving family and a warm home, and we are proud to be a part of that mission.
+                            Our adoptable cats are fully vetted and up-to-date on their vaccinations, and they receive the same level of care 
+                            and attention as our resident cats. We work closely with the shelters to ensure that each cat is matched with 
+                            the right family, and we provide a comfortable and safe environment for potential adopters to get to know the 
+                            cats. Adopting a cat is a rewarding experience, and we encourage our visitors to consider giving a cat a loving 
+                            home. We are always excited to see one of our adoptable cats find their forever family, and we celebrate each 
+                            successful adoption with joy and gratitude.
+                        </p>
+                    </div>
+                    <div id="form-adoption">
+                        <h1>
+                            Use this form to adopt and we will contact you this week!
+                        </h1>
+
+                        <!-- This form is not lining up vertically like how it lines up vertically on the visiting page  -->
+
+                        <form action="mailto:neidacornejo05@gmail.com" method="post" id="cat-form-adopt">
+                            <label for="name-adopt">First and Last Name:
+                                <input type="text" id="name-adopt" name="name-adopt" placeholder="Name" class="information">
+                            </label>
+                            <br>
+                            <label for="adoption-form-cats">Choose a cat to adopt:
+                                <select id="adoption-form-cats" name="adoption-form-cats" class="information">
+                                    <option value="Dinky">Dinky</option>
+                                    <option value="Gizmo">Gizmo</option>
+                                    <option value="Jazmine">Jazmine</option>
+                                    <option value="Larri">Larri</option>
+                                    <option value="Murphy">Murphy</option>
+                                    <option value="Stinkers">Stinkers</option>
+                                </select>
+                            </label>
+                            <br>
+                            <label for="email-adopt"> Enter Your Email: 
+                                <input type="email" id="email-adopt"  placeholder="Email" class="information">
+                            </label> 
+                            <br>
+                            <label for="phoneNumb-adopt">Enter Your Phone Number:
+                                <input type="tel" id="phoneNumb-adopt" placeholder="(123)456-7890" class="information">
+                            </label>
+                            <br>
+                            <button type="submit" id="submit">Submit Form</button>
+                        </form>
+                    </div>
                 </header>
                 <section id="cats">
-                    <div>
-                        <img src="../final-project/images/dinky.jpg" alt="Dinky">
-                        <h1>Dinky</h1>
-                        <p>
-                            Dinky is an adorable orange cat with crossed eyes who is currently up for adoption. With his unique appearance,
-                            he has a silly and playful personality that makes him an absolute joy to be around. Dinky loves to chase after toys,
-                            climb on furniture, and cuddle up with his favorite humans. His quirky looks only add to his charm, and he's sure
-                            to win the hearts of anyone who meets him. If you're looking for a feline companion who's as entertaining as he is 
-                            lovable, Dinky is the perfect choice
-                        </p>
+                    <div class="silly-cats">
+                        <img src="./images/dinky.jpg" alt="Dinky">
+                        <div class="name-desc">
+                            <h1>Dinky</h1>
+                            <p>
+                                Dinky is an adorable orange cat with crossed eyes who is currently up for adoption. With his unique appearance,
+                                he has a silly and playful personality that makes him an absolute joy to be around. Dinky loves to chase after toys,
+                                climb on furniture, and cuddle up with his favorite humans. His quirky looks only add to his charm, and he's sure
+                                to win the hearts of anyone who meets him. If you're looking for a feline companion who's as entertaining as he is 
+                                lovable, Dinky is the perfect choice
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../final-project/images/gizmo.jpg" alt="Gizmo">
-                        <h1> Gizmo</h1>
-                        <p>
-                            While Gizmo may appear calm and gentle, it's worth noting that he can be a little feisty at times.
-                            This is because Gizmo was once a feral cat and had to learn how to fend for himself on the streets.
-                            However, with patience and love from his caregivers, Gizmo has come a long way and is now a loving
-                            and loyal companion. He may still have some remnants of his feral past, but with the right family, 
-                            he is sure to flourish and become an even more wonderful pet. If you're willing to provide Gizmo with 
-                            the love and patience he deserves, he'll reward you with endless affection and companionship.
-                        </p>
+                    <div class="silly-cats">
+                        <img src="./images/gizmo.jpg" alt="Gizmo">
+                        <div class="name-desc">
+                            <h1> Gizmo</h1>
+                            <p>
+                                While Gizmo may appear calm and gentle, it's worth noting that he can be a little feisty at times.
+                                This is because Gizmo was once a feral cat and had to learn how to fend for himself on the streets.
+                                However, with patience and love from his caregivers, Gizmo has come a long way and is now a loving
+                                and loyal companion. He may still have some remnants of his feral past, but with the right family, 
+                                he is sure to flourish and become an even more wonderful pet. If you're willing to provide Gizmo with 
+                                the love and patience he deserves, he'll reward you with endless affection and companionship.
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../final-project/images/jazmine.jpg" alt="Jazmine">
+                    <div class="silly-cats">
+                        <img src="./images/jazmine.jpg" alt="Jazmine">
+                        <div class="name-desc">
+                            <h1>Jazmine</h1>
                         <p>
                             Jazmine is a playful and energetic cat who loves to chase after toys and climb on her scratching post. 
                             She's also incredibly affectionate and enjoys curling up in her human's lap for a good cuddle. Jazmine 
                             may still be young, but she's already showing signs of becoming a loyal and devoted companion to whoever 
                             is lucky enough to adopt her. With her striking looks and loving personality, Jazmine is sure to bring joy 
                         </p>
+                        </div>
                     </div>
-                    <div>
-                        <h1>Larri</h1>
-                        <img src="../final-project/images/larri.jpg" alt="larri">
-                        <p>
-                            Larri is a charming cat with a striking coat of white and black fur that perfectly matches his playful personality. 
-                            He's a high-energy cat who loves to run and play, and can often be found chasing after toys or exploring every nook 
-                            and cranny of his environment. But beyond his energetic antics, Larri is also a very funny cat who loves to make his 
-                            humans laugh with his silly antics and mischievous behavior. Whether he's batting at a toy, chasing his tail, or 
-                            pouncing on imaginary prey, Larri always manages to keep his humans entertained. If you're looking for a cat with 
-                            a great sense of humor and endless energy, Larri is the perfect choice!
-                        </p>
+                    <div class="silly-cats">
+                        <img src="./images/larri.jpg" alt="larri">
+                        <div class="name-desc">   
+                            <h1>Larri</h1>
+                            <p>
+                                Larri is a charming cat with a striking coat of white and black fur that perfectly matches his playful personality. 
+                                He's a high-energy cat who loves to run and play, and can often be found chasing after toys or exploring every nook 
+                                and cranny of his environment. But beyond his energetic antics, Larri is also a very funny cat who loves to make his 
+                                humans laugh with his silly antics and mischievous behavior. Whether he's batting at a toy, chasing his tail, or 
+                                pouncing on imaginary prey, Larri always manages to keep his humans entertained. If you're looking for a cat with 
+                                a great sense of humor and endless energy, Larri is the perfect choice!
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../final-project/images/murphy.jpg" alt="Murphy">
-                        <h1>Murphy</h1>
-                        <p>
-                            Murphy is an incredibly sweet and affectionate cat who loves nothing more than spending time with his favorite humans. 
-                            He may be a larger cat, but that just means there's more of him to love! Murphy's mellow and easy-going personality 
-                            makes him the perfect companion for anyone looking for a relaxed and gentle pet. He enjoys lounging in comfortable 
-                            spots, receiving plenty of pets and cuddles, and exploring his surroundings at a leisurely pace. Murphy's shiny black 
-                            coat and striking green eyes make him quite the looker, and his affectionate nature will win over even the most reluctant 
-                            cat person. If you're looking for a furry friend who's both loving and low-key, Murphy is the perfect choice. 
-                        </p>
+                    <div class="silly-cats">
+                        <img src="./images/murphy.jpg" alt="Murphy">
+                        <div class="name-desc">
+                            <h1>Murphy</h1>
+                            <p>
+                                Murphy is an incredibly sweet and affectionate cat who loves nothing more than spending time with his favorite humans. 
+                                He may be a larger cat, but that just means there's more of him to love! Murphy's mellow and easy-going personality 
+                                makes him the perfect companion for anyone looking for a relaxed and gentle pet. He enjoys lounging in comfortable 
+                                spots, receiving plenty of pets and cuddles, and exploring his surroundings at a leisurely pace. Murphy's shiny black 
+                                coat and striking green eyes make him quite the looker, and his affectionate nature will win over even the most reluctant 
+                                cat person. If you're looking for a furry friend who's both loving and low-key, Murphy is the perfect choice. 
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../final-project/images/stinkers.jpg" alt="stinkers">
-                        <h1>Stinkers</h1>
-                        <p>
-                            Meet Stinkers, an adorable bright orange tabby cat who is currently available for adoption. Despite his name, 
-                            Stinkers doesn't actually smell bad anymore! He was found in a pretty rough state, but with the help of some 
-                            good food and lots of love, he's now looking and smelling great. Stinkers may be a bit on the plump side, but 
-                            that just means there's more of him to love. He's a friendly and affectionate cat who loves to curl up in laps 
-                            and receive plenty of pets and cuddles. Stinkers has a playful and curious personality, and he enjoys exploring 
-                            his surroundings and chasing after toys. If you're looking for a furry friend who's both charming and entertaining, 
-                            Stinkers is the perfect choice. Come meet him today and see for yourself why he's such a lovable cat.
-                        </p>
+                    <div class="silly-cats">
+                        <img src="./images/stinkers.jpg" alt="stinkers">
+                        <div class="name-desc">
+                            <h1>Stinkers</h1>
+                            <p>
+                                Meet Stinkers, an adorable bright orange tabby cat who is currently available for adoption. Despite his name, 
+                                Stinkers doesn't actually smell bad anymore! He was found in a pretty rough state, but with the help of some 
+                                good food and lots of love, he's now looking and smelling great. Stinkers may be a bit on the plump side, but 
+                                that just means there's more of him to love. He's a friendly and affectionate cat who loves to curl up in laps 
+                                and receive plenty of pets and cuddles. Stinkers has a playful and curious personality, and he enjoys exploring 
+                                his surroundings and chasing after toys. If you're looking for a furry friend who's both charming and entertaining, 
+                                Stinkers is the perfect choice. Come meet him today and see for yourself why he's such a lovable cat.
+                            </p>
+                        </div>
                     </div>
                 </section>
             </article>
-            <article id="Menu">
+            <article id="menu">
                 <header>
                     <h1>Menu for Foods & Drinks</h1>
                 </header>
-            </article>
             </article>
         </div>
         <footer id="footer">
