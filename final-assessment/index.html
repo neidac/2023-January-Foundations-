@@ -1,0 +1,89 @@
+<!-- 
+
+What to fix for next time :
+1. the font-weight of the text in h1 
+2. make the javascript work
+3. netflix flip
+4. possibly get to the paw print on the bottom? 
+5. get to mobile done (first thing since simplest )
+6. be able to make everything seperate pages -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange is the New Cat</title>
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="./css/standard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script
+  src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+        <h1 id="weight">
+            <span>Orange&nbsp;</span>is the new<span>&nbsp;Cat</span>
+        </h1>
+        <h2>only on<img src="./images/netflix.png" alt="netflix" class="netflix"></h2>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <article id="#home">
+        <!-- find a way to make this home instead of the body and to make the text for the header heavier with font-weifht -->
+    </article>
+    <article id="#about">
+        <p>
+            Kitty is no ordinary kitten. He's a super-hero, too! 
+        </p>
+    </article>
+    <div id="schedule">
+        <div class="popup"></div>
+        <img src="./images/close.png" alt="exit button" id="exit" class="exit-button exit">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Silly Kitty</td>
+                    <td>The first episode in which we meet a 
+                        very silly kitty
+                    </td>
+                    <td>07/05/2016</td>
+                </tr>
+                <tr>
+                    <td>Trouble in Orange</td>
+                    <td>
+                        Silly kitty gets lost and spends the night in 
+                        kitty lockup
+                    </td>
+                    <td>7/12/2016</td>
+                </tr>
+                <tr>
+                    <td>Claws of Fury</td>
+                    <td>
+                        Ninja cat attacts the home and silly Kitty must defend
+                        his family!
+                    </td>
+                    <td>07/19/2016</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="contact">
+        <img src="./images/close.png" alt="exit button "class="exit-away">
+        <div class="contact-back">
+            <a href="tel:(402)555-5555">(402)555-5555</a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook socials"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-square-twitter socials"></i></a>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./js/orange.js">
+</body>
+</html>
