@@ -35,6 +35,7 @@ nav > a {
     transform: translate(25em, 30px);
     font-size: 24px;
     font-weight: bolder;
+    height: 1em;
 }
 
 nav a:hover {
@@ -62,7 +63,7 @@ nav a:hover {
 }
 #feline {
     background: rgba(26,49,85,.5);
-   background-image: url(../images/cafe.jpg);
+   background-image: url(../images/cafe.png);
    /* the other image is a jpg that looks exactly like this one but not shaded*/
    background-repeat: no-repeat;
    background-size: cover;
@@ -207,7 +208,7 @@ footer:hover .hide {
 .top {
     margin: 0;
     position: relative;
-    background-image: url(../images/lick.png);
+    background-image: url(../images/background-2.png);
     background-size: cover;
     width: 100%;
     height: 70vh;
@@ -361,20 +362,31 @@ footer:hover .hide {
     transform: translate(15em, 1em);
 }
 
-
-#faq-top {
-    background-image: url(../images/cat-paws-background.png);
+#qna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5em;
+}
+#faq-img {
+    background-image: url(../images/cafe.png);
     height: 70vh;
     width: 100%;
+    margin-bottom: 0.5em;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #faq-top > h1 {
     margin: 0;
     color: #ebccab;
     display: flex;
+    font-size: 5em;
     justify-content: center;
+    transform: translateY(-4.5em);
 }
-#faq-top::before {
+#faq-img::before {
     content: "";
     position: absolute;
     top: 0;
@@ -382,4 +394,79 @@ footer:hover .hide {
     height: 81.50vh;
     background: rgba(89, 69, 69, 0.6);
     color: #ebccab;
+}
+
+.questions {
+    background-color: #594545;
+    display: flex;
+    width: 73vw;
+    color: #ebccab;
+    transition: ease 0.25s all;
+    border: none;
+    font-size: 20px;
+    padding: 1em;
+    border-bottom: 4px solid #986c6c;
+}
+.downwards {
+    /* display: flex;
+    justify-content: flex-end; */
+    float: right;
+}
+
+.questions:focus, .questions:hover {
+    background-color: #986c6c;
+    cursor: pointer;
+}
+
+.answers {
+    background-color: #fffaf0;
+    margin: 0;
+    width: 70vw;
+    padding: 1.5vw;
+    text-align: left;
+    font-size: 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+}
+
+.background-menu {
+    color: #ebccab;
+    background-color: #594545;
+    border-radius: 25px;
+    margin: 8em;
+}
+
+.food, .drinks {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+#menu h1 {
+    font-size: 50px;
+    border-bottom: 1px solid #ebccab;
+    margin: 10px;
+}
+
+#menu img {
+    width: 250px;
+    height: 250px;
+}
+
+#menu li {
+    font-size: 25px;
+    margin: 10px;
+}
+
+#menu header {
+    font-size: 70px;
+    padding: 1em;
+    text-align: center;
+}
+
+#menu span {
+    float: right;
 }
