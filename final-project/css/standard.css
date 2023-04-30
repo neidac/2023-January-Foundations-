@@ -398,7 +398,6 @@ footer:hover .hide {
 
 .questions {
     background-color: #594545;
-    display: flex;
     width: 73vw;
     color: #ebccab;
     transition: ease 0.25s all;
@@ -421,8 +420,8 @@ footer:hover .hide {
 .answers {
     background-color: #fffaf0;
     margin: 0;
-    width: 70vw;
-    padding: 1.5vw;
+    width: 73vw;
+    padding: 0;
     text-align: left;
     font-size: 25px;
     max-height: 0;
@@ -430,7 +429,11 @@ footer:hover .hide {
     transition: max-height 0.2s ease-in-out;
 }
 
-.background-menu {
+.answers > p {
+    margin: 0;
+    padding: 1.5vw;
+}
+#background-menu {
     color: #ebccab;
     background-color: #594545;
     border-radius: 25px;
@@ -470,3 +473,14 @@ footer:hover .hide {
 #menu span {
     float: right;
 }
+
+/* 
+.questions::after {
+    float: right;
+    content: "\f078";
+    color: #ebccab;
+}
+
+.active::after {
+    content: "\2796";
+} */
